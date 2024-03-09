@@ -140,6 +140,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.study.blog.BlogApp</mainClass>
+                    <!-- 有关详细信息, 请使用 -Xlint:unchecked 重新编译。 -->
                 </configuration>
                 <executions>
                     <execution>
@@ -150,8 +151,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
-
-
 </project>
